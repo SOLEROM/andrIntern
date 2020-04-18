@@ -39,3 +39,9 @@
 ## framework
 * [framework](framework/readme.md)
 
+## tools
+* [service](tools/service.md)
+* [dumpsys](tools/dumpsys.md)
+* [bindump](tools/bindump.md)
+
+
