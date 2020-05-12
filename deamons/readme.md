@@ -7,7 +7,7 @@
 
 ## Core Services
 * adbd
-* servicemanager
+* [servicemanager](servicemanager.md)
 * healthd
 * lmkd
 * logd
@@ -32,5 +32,4 @@
 * debuggerd
 * sdcard
 * zygote
- * system_server
- 
+* [system_server](framework/systemServer.md) 

@@ -1,3 +1,0 @@
-## related
-
-* https://lineageos.org/

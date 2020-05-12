@@ -1,47 +1,21 @@
-# android internals
+# TOPICS
 
-# 01_learn
-
-* [trainning](learn/trainning.md)
-* [tutorials](learn/tutorials.md)
-* [related staff and projects](related.md)
-
-# 02_srcCode
-
-## buildSrc
-* [buildSrc](buildSrc/readme.md)
-
-## tools
-* [codeSearchTools](codeTools/codeSearchTools.md)
-
-# 03_analyzing
-
-* [logging](logging/readme.md)
-* [netCap](netCap/readme.md)
-
-# 04_security
-
-* [security](security/readme.md)
-
-# 05_userSpace
-
-* [sl4a](sl4a/readme.md)
+##
 
 
-# 06_internals
+## android internals
 
-## init
-* [init](init/readme.md)
+* (01)get to know startupt procedure [init](init/readme.md)
 
-## deamons
-* [deamons](deamons/readme.md)
+* (02) get to know the  [deamons](deamons/readme.md) list
+ * look at [servicemanager](deamons/servicemanager.md) deamon 
+   * use [service](tools/service.md) / [dumpsys](tools/dumpsys.md) toolsets
+   
 
-## framework
-* [framework](framework/readme.md)
-
-## tools
-* [service](tools/service.md)
-* [dumpsys](tools/dumpsys.md)
-* [bindump](tools/bindump.md)
+* (03) get to know [framework](framework/readme.md)
+ * look at [systemServer](framework/systemServer.md) used by [rpc](framework/rpc.md)
+  * and how to find [namedTreads](framework/systemServerTreads.md)
+ * look at [binder](framework/binder.md) and [bindump](tools/bindump.md) toolset
 
 
+ 
